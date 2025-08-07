@@ -9,6 +9,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'standalone', // 🔥 Requerido por next-on-pages
+  experimental: {
+    serverActions: true, // Opcional, solo si estás usándolos
+  }
 }
 
 export default nextConfig
