@@ -57,56 +57,12 @@ Podés agregar fácilmente más idiomas o ajustar las traducciones existentes en
 
 ---
 
-## 🛠️ Cómo ejecutar el proyecto
-
-### 1. Clona el repositorio
-
-```bash
-git clone https://github.com/TU_USUARIO/photonic_landing.git
-cd photonic_landing
-```
-
-### 2. Instala dependencias
-
-```bash
-npm install
-# o
-yarn
-```
-
-### 3. Crea un archivo `.env.local`
-
-```dotenv
-EMAIL_HOST=smtp.tucorreo.com
-EMAIL_PORT=465
-EMAIL_USER=correo@tudominio.com
-EMAIL_PASS=tu_clave
-EMAIL_TO=destino@tudominio.com
-```
-
-### 4. Ejecutá el servidor de desarrollo
-
-```bash
-npm run dev
-# o
-yarn dev
-```
-
----
-
-## 🎨 Personalización
-
-- Idiomas: Añadí más archivos en `/lib/translations`.
-- Estilos: Modificá `tailwind.config.ts` y los componentes en `/components`.
-- Marca: Cambiá los colores, fuentes y logos según tu identidad visual.
-
----
-
 ## 🧑‍💻 Desarrollado por
 
-**Photonic Software**  
+**Photonic Software** 
+*Juan Ignacio González Cortes* 
 Soluciones digitales modernas, simples y potentes.  
-✨ [https://photonicsoftware.com](https://photonicsoftware.com) (opcional si tenés dominio)
+✨ [https://photonicsoftware.com](https://photonicsoftware.com)
 
 ---
 
