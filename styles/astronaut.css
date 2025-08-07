@@ -1,0 +1,15 @@
+/* astronaut.css */
+
+.astronaut-wrapper {
+  animation: float 6s ease-in-out infinite;
+  transform: translateY(30px); /* Baja ligeramente la imagen */
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(30px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
